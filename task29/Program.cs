@@ -11,6 +11,11 @@ while (count < 8)
 {
     int num = new Random().Next(1, 100);
     System.Console.Write(num);
-    System.Console.Write(", ");
+
+    if (count < 7)
+    {
+        System.Console.Write(", ");
+    }
+
     count++;
 }
