@@ -5,17 +5,37 @@
 6, 1, 33 -> [6, 1, 33]
 */
 
-int count = 0;
-
-while (count < 8)
+int[] GetArray(int first, int last, int size)
 {
-    int num = new Random().Next(1, 100);
-    System.Console.Write(num);
-
-    if (count < 7)
+    int[] array = new int[size];
+    for (int i = 0; i < size; i++)
     {
-        System.Console.Write(", ");
+        array[i] = new Random().Next(first, last + 1);
+    }
+    return array;
+}
+
+void PrintArray(int[] arr)
+{
+    for (int i = 0; i < arr.Length; i++)
+    {
+        System.Console.Write(arr[i]);
+        if (i < arr.Length)
+        {
+            System.Console.Write(", ");
+        }
     }
 
-    count++;
 }
+
+System.Console.WriteLine("Диапазон массива от: ");
+int userFirst = Convert.ToInt32(Console.ReadLine());
+
+System.Console.WriteLine("Диапазон массива до: ");
+int userLast = Convert.ToInt32(Console.ReadLine());
+
+System.Console.WriteLine("Размер массива: ");
+int userSize = Convert.ToInt32(Console.ReadLine());
+
+int[] userArray = GetArray(userFirst, userLast, userSize);
+PrintArray(userArray);
