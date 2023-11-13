@@ -21,7 +21,7 @@ int[] GetRandomArray(int first, int last, int size)
     int[] array = new int[size];
     for (int i = 0; i < size; i++)
     {
-        array[i] = new Random().Next(first, last);
+        array[i] = new Random().Next(first, last + 1);
     }
     return array;
 }
