@@ -6,14 +6,20 @@
 9012 -> 12
 */
 
-System.Console.WriteLine("Введите трехзначное число: ");
+System.Console.WriteLine("Введите число: ");
 int num = Convert.ToInt32(Console.ReadLine());
 
-int a = num / 100;
-int b = num / 10;
-int c = b % 10;
-int d = num % 10;
+int Sum(int a)
+{
+    int sum = 0;
 
-int result = a + c + d;
+    while (num > 0)
+    {
+        sum += num % 10;
+        num /= 10;
+    }
+    return sum;
+}
 
+int result = Sum(num);
 System.Console.WriteLine(result);
