@@ -6,16 +6,6 @@
 сумма положительных чисел равна 29, сумма отрицательных равна -20.
 */
 
-
-
-
-
-
-
-
-
-
-
 int[] GetRandomArray(int first, int last, int size)
 {
     int[] array = new int[size];
