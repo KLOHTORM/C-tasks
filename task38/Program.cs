@@ -10,7 +10,7 @@
 */
 
 
-Запуталась, надо решить позже
+//Запуталась, надо решить позже
 
 /*
 double[] GetRandomArray(double size)
@@ -69,3 +69,4 @@ PrintArray(userArray);
 System.Console.WriteLine();
 
 System.Console.WriteLine($"Разница между максимальным элементом {FindMax(userArray)} и минимальным элементом {FindMin(userArray)} =  {DifMaxMin(userArray)}");
+*/
