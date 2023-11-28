@@ -5,40 +5,44 @@
 1, -7, 567, 89, 223-> 3
 */
 
-
-int[] InputArray(int lenght)
+int[] GetArray(int size)
 {
-    int[] array = new int[lenght];
-    for (int i = 0; i < arrayLlength; i++)
+    int[] array = new int[size];
+    for (int i = 0; i < size; i++)
     {
-        array[i] = Prompt($"Введите {i = 1} элемент: ");
+        array[i] = new Random().Next(-99, 100);
     }
     return array;
+}
+
+int Count(int[] arr)
+{
+    int size = 0;
+    for (int i = 0; i < arr.Length; i++)
+    {
+        if (arr[i] > 0) 
+        size++;
+    }
+    return size;
 }
 
 void PrintArray(int[] array)
 {
     for (int i = 0; i < array.Length; i++)
     {
-        System.Console.WriteLine($"a[{i}] = {array[i]}");
-    }
-}
-
-int CountPositivNumbers(int[] array)
-{
-    int count = 0;
-    for (int i = 0; i < array.Lenght; i++)
-    {
-        if (array[i] > 0)
+        System.Console.Write(array[i]);
+        if (i < array.Length)
         {
-            count++;
+            System.Console.Write("  ");
         }
     }
-    return count;
 }
 
-int lenght = Prompt("Введите колличество чисел: ");
-int[] array;
-array = InputArray(lenght);
-PrintArray(array);
-System.Console.WriteLine($"Колличество чисел больше 0 : {CountPositivNumbers(array)}");
+System.Console.WriteLine("Введите длину массива: ");
+int size = Convert.ToInt32(Console.ReadLine());
+
+int[] userArr = GetArray(size);
+PrintArray(userArr);
+
+System.Console.WriteLine();
+System.Console.WriteLine($"{Count(userArr)}");
