@@ -9,16 +9,12 @@
 Разность между максимальным и минимальным элементом = 8.09
 */
 
-
-//Запуталась, надо решить позже
-
-/*
-double[] GetRandomArray(double size)
+int[] GetRandomArray(int size)
 {
-    double[] array = new double[size];
-    for (double i = 0; i < size; i++)
+    int[] array = new int[size];
+    for (int i = 0; i < size; i++)
     {
-        array[i] = new Random().Next(1, 10);
+        array[i] = new Random().Next(1, 100);
     }
     return array;
 }
@@ -36,9 +32,9 @@ void PrintArray(int[] array)
 
 }
 
-double FindMax(double[] arr)
+int FindMax(int[] arr)
 {
-    double max = arr[0];
+    int max = arr[0];
     for (int i = 0; i < arr.Length; i++)
     {
         if(max < arr[i]) max = arr[i];
@@ -46,27 +42,31 @@ double FindMax(double[] arr)
     return max;
 }
 
-double FindMin(double[] arr)
+int FindMin(int[] arr)
 {
-    double min = arr[0];
+    int min = arr[0];
     for (int i = 0; i < arr.Length; i++)
     {
-        if(min > arr[i]) max = arr[i];
+        if(min > arr[i]) min = arr[i];
     }
     return min;
 }
 
-double DifMaxMin(double[] arr)
+int DifMaxMin(int[] arr)
 {
-    double result = FindMax(arr) - FindMin(arr);
+    int result = FindMax(arr) - FindMin(arr);
     return result;
 }
 
+System.Console.WriteLine();
 
 int[] userArray = GetRandomArray(5);
 PrintArray(userArray);
 
 System.Console.WriteLine();
 
-System.Console.WriteLine($"Разница между максимальным элементом {FindMax(userArray)} и минимальным элементом {FindMin(userArray)} =  {DifMaxMin(userArray)}");
-*/
+System.Console.WriteLine();
+
+System.Console.WriteLine($"Разница между максимальным элементом({FindMax(userArray)}) и минимальным элементом({FindMin(userArray)}) будет {DifMaxMin(userArray)}");
+
+System.Console.WriteLine();

@@ -38,7 +38,7 @@ int ProductArray(int[] arr)
         result[i] = sum;
     }
 
-    return result;
+    return sum;
 }
 
 int[] userArray = GetRandomArray(6);
