@@ -57,4 +57,4 @@ PrintArray (userArray);
 
 System.Console.WriteLine();
 
-System.Console.WriteLine(FindArray(userArray));
+System.Console.WriteLine($"{FindArray(userArray)}");
