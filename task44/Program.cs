@@ -9,16 +9,17 @@
 
 int[] Febonachi(int number)
 {
-    int size = 0;
-    if (number < 2) size = 2;
-    int[] array = new int[size];
-    array[0] = 0;
-    array[1] = 1;
-    for (int i = 2; i < size; i++)
+    int[] arr = new int[number];
+    arr[0] = 0;
+    arr[1] = 1;
+    if (number > 2)
     {
-        array[i] = array[i - 1] + array[i - 2];
+        for (int i = 2; i < number; i++)
+        {
+            arr[i] = arr[i-1] + arr[i-2];
+        }
     }
-    return array;
+    return arr;
 }
 
 void PrintArray(int[] array)
@@ -28,7 +29,7 @@ void PrintArray(int[] array)
         System.Console.Write(array[i]);
         if (i < array.Length)
         {
-            System.Console.Write(", ");
+            System.Console.Write("  ");
         }
     }
 
