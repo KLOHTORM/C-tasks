@@ -42,3 +42,34 @@ int userArrayLast = Massege("Введите конец диапазона: ");
 int[,] user2DArr = GetRandom2DArray( userArrFirst, userArrayLast, userArrRow, userArrColumn);
 
 Print2DArray(user2DArr);
+
+//короткий способ с помощью войдов
+
+/*
+void Fill2DArr(int[,] arr)
+{
+    for (int i = 0; i < arr.GetLength(0); i++)
+    {
+        for (int j = 0; j < arr.GetLength(1); j++)
+        {
+            arr[i, j] = new Random().Next(10, 100);
+        }
+    }
+}
+
+void Print2DArr(int[,] arr)
+{
+    for (i = 0; i < GrtLength(0); i++)
+    {
+        for (j = 0; j < GrtLength(1); j++)
+        {
+            System.Console.Write($"{arr[i. j]} ")
+        }
+        System.Console.WriteLine();
+    }
+}
+
+int[,] user2DArr = new int[3, 4];
+Fill2DArr(user2DArr);
+Print2DArr(user2DArr);
+*/
