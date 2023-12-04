@@ -41,7 +41,7 @@ int userArrayLast = Massege("Введите конец диапазона: ");
 
 int[,] user2DArr = GetRandom2DArray( userArrFirst, userArrayLast, userArrRow, userArrColumn);
 
-Print2DArray(user2DArr);
+Print2DArray(user2DArr);} //зачем то он попросил меня поставить }
 
 //короткий способ с помощью войдов
 
