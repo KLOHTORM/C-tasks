@@ -34,6 +34,8 @@ void Print2DArray(int[,] array)
         System.Console.WriteLine();
     }
 
+}
+
 int userArrRow = Massege("Введите кол-во строк: ");
 int userArrColumn = Massege("Введите кол-во столбцов: ");
 int userArrFirst = Massege("Введите начало диапазона: ");
@@ -41,7 +43,7 @@ int userArrayLast = Massege("Введите конец диапазона: ");
 
 int[,] user2DArr = GetRandom2DArray( userArrFirst, userArrayLast, userArrRow, userArrColumn);
 
-Print2DArray(user2DArr);} //зачем то он попросил меня поставить }
+Print2DArray(user2DArr);
 
 //короткий способ с помощью войдов
 
