@@ -45,6 +45,8 @@ int userArrColumn = Convert.ToInt32(Console.ReadLine());
 
 int[,] user2DArr = GetRandom2DArray(userArrRow, userArrColumn);
 
+System.Console.WriteLine();
+
 Print2DArray(user2DArr);
 
 int userSum = SumIndex(user2DArr);
