@@ -1,0 +1,15 @@
+C:\Users\dasal\OneDrive\Рабочий стол\Семинары(1 четв)\C#\task53\bin\Debug\net6.0\task53.exe
+C:\Users\dasal\OneDrive\Рабочий стол\Семинары(1 четв)\C#\task53\bin\Debug\net6.0\task53.deps.json
+C:\Users\dasal\OneDrive\Рабочий стол\Семинары(1 четв)\C#\task53\bin\Debug\net6.0\task53.runtimeconfig.json
+C:\Users\dasal\OneDrive\Рабочий стол\Семинары(1 четв)\C#\task53\bin\Debug\net6.0\task53.dll
+C:\Users\dasal\OneDrive\Рабочий стол\Семинары(1 четв)\C#\task53\bin\Debug\net6.0\task53.pdb
+C:\Users\dasal\OneDrive\Рабочий стол\Семинары(1 четв)\C#\task53\obj\Debug\net6.0\task53.csproj.AssemblyReference.cache
+C:\Users\dasal\OneDrive\Рабочий стол\Семинары(1 четв)\C#\task53\obj\Debug\net6.0\task53.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dasal\OneDrive\Рабочий стол\Семинары(1 четв)\C#\task53\obj\Debug\net6.0\task53.AssemblyInfoInputs.cache
+C:\Users\dasal\OneDrive\Рабочий стол\Семинары(1 четв)\C#\task53\obj\Debug\net6.0\task53.AssemblyInfo.cs
+C:\Users\dasal\OneDrive\Рабочий стол\Семинары(1 четв)\C#\task53\obj\Debug\net6.0\task53.csproj.CoreCompileInputs.cache
+C:\Users\dasal\OneDrive\Рабочий стол\Семинары(1 четв)\C#\task53\obj\Debug\net6.0\task53.dll
+C:\Users\dasal\OneDrive\Рабочий стол\Семинары(1 четв)\C#\task53\obj\Debug\net6.0\refint\task53.dll
+C:\Users\dasal\OneDrive\Рабочий стол\Семинары(1 четв)\C#\task53\obj\Debug\net6.0\task53.pdb
+C:\Users\dasal\OneDrive\Рабочий стол\Семинары(1 четв)\C#\task53\obj\Debug\net6.0\task53.genruntimeconfig.cache
+C:\Users\dasal\OneDrive\Рабочий стол\Семинары(1 четв)\C#\task53\obj\Debug\net6.0\ref\task53.dll
