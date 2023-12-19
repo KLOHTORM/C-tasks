@@ -16,12 +16,12 @@ void IntNum(int num, int a = 1)
 {
     if (num >= a)
     {
-        System.Console.Write($"{a}");
+        System.Console.Write($"{a} ");
         IntNum(num, a + 1);
     }
     else if (num == 1)
     {
-        System.Console.Write($"{num}");
+        System.Console.Write($"{num} ");
         return;
     }
 }
