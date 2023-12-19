@@ -15,8 +15,8 @@ int Massege(string massage)
 
 int SumMN(int m, int n)
 {
-    if (m > n) return n + SumMN(m, n + 1);
-    return n;
+    if (n > m) return m + SumMN(n, m + 1);
+    return m;
 }
 
 int userM = Massege("Введите значение M: ");
